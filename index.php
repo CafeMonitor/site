@@ -1,0 +1,167 @@
+<!doctype>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=divice=width, initial-scalet=1.0">
+	<title>CaféMonitor</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container header-container">
+			<a href="#" class="logo">
+			<i class="fa-solid fa-mug-hot logo-icon"></i>
+			<div class="logo-text">Café<span>Monitor</span></div>
+			</a>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#footer">Contactanos</a></li>
+			</ul>
+		</nav>
+
+		<div class="nav-bottons">
+			<a href="#products" class="btn btn-primary">Ordenar Online</a>
+		</div>
+	</div>
+
+	</header>
+
+	<section class="hero">
+		<div class="container">
+			<div class="hero-content">
+				<div class="hero-subtitle">
+					<i class="fa-solid fa-seedling"></i>
+					Frijoles de origen ético
+				</div>
+				<h1 class="hero-title">Café artesanal<br><span>Elaborado con pasión
+</span></h1>
+				<p class="hero-text">Descubra cafés de origen único tostados a la perfección en lotes pequeños para obtener un sabor excepcional. Experimente el viaje desde el grano hasta la taza con nuestros maestros tostadores.</p>
+				<div class="hero-buttons">
+					<a href="#products" class="btn btn-primary">Explora nuestras mezclas</a>
+				</div>
+			</div>
+			<img src="1.jpg" alt="" width="370px">
+		</div>
+	</section>
+
+	<section class="products" id="products">
+		<div class="container">
+			<div class="section-header">
+				<div class="section-subtitle">Nuestra selección</div>
+				<h2 class="section-title">Mezclas de café exclusivas</h2>
+				<p class="section-desc">Cada lote se tuesta cuidadosamente para resaltar las características únicas de los frijoles.</p>
+			</div>
+
+			<div class="product-grid">
+				<div class="product-card">
+					<div class="product-img">
+						<img src="2.jpg" alt="Ethiopian Yirgacheffe">
+					</div>
+					<div class="product-info">
+						<div class="product-tag">BESTSELLER</div>
+						<h3 class="product-title">Ethiopian Yirgacheffe</h3>
+						<p class="product-desc">Notas florales con una brillante acidez cítrica y un cuerpo parecido al té. Asado ligero.</p>
+						<div class="product-footer">
+							<div class="product-price">$18.99</div>
+							<div class="rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star-half"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<div class="product-card">
+				<div class="product-img">
+					<img src="3.jpg" alt="Colombian Supremo">
+				</div>
+				<div class="product-info">
+					<h3 class="product-title">Colombian Supremo</h3>
+					<p class="product-desc">Rico dulzor a caramelo con matices nutritivos y acidez equilibrada. Asado medio.</p>
+					<div class="product-footer">
+						<div class="product-price">$16.99</div>
+						<div class="rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="product-card">
+				<div class="product-img">
+					<img src="4.jpg" alt="Dark Roast Expresso">
+				</div>
+				<div class="product-info">
+					<div class="product-tag">NUEVO</div>
+					<h3 class="product-title">Expresso tostado oscuro</h3>
+					<p class="product-desc">Audaz e intenso con notas de chocolate negro y una sensación cremosa en la boca. Asado oscuro.</p>
+					<div class="product-footer">
+						<div class="product-price">$17.99</div>
+						<div class="rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-column">
+					<h3>Acerca de MonitorCafé</h3>
+					<p style="color: var(--coffee-accent); margin-bottom: 20px;">Tostadores de café artesanales dedicados a la calidad, la sostenibilidad y la taza perfecta.</p>
+					<div class="social-links">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fa-solid fa-x"></i></a>
+						<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+					</div>
+				</div>
+
+					<div class="footer-column">
+						<h3>Enlaces rápidos</h3>
+						<ul class="footer-links">
+							<li><a href="#">Mezclas de café</li></a>
+							<li><a href="#">Gides cerveceros</li></a>
+							<li><a href="#">Sostenibilidad</li></a>
+							<li><a href="#">Mayorista</li></a>
+						</ul>
+						</div>
+
+						<div class="footer-column">
+							<h3>Contáctenos</h3>
+							<ul class="footer-links">
+								<li><i class="fas fa-map-marker-alt"></i>Zaraza Estado Gúarico</li>
+								<li><i class="fas fa-phone"></i>(+58-04122233490)</li>
+								<li><i class="fas fa-envelope"></i>Coffemonitor@gmail.com</li>
+								<li><i class="fas fa-clock"></i>Horario: 7:00am-8:00pm</li>
+							</ul>
+						</div>
+					</div>
+
+						<div class="copyright">
+							&copy;2026 CoffeeMonitor. All right reserved.
+						</div>
+					</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
